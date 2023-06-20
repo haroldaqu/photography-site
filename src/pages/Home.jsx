@@ -32,7 +32,6 @@ const Home = () => {
                                 PHOTOBY 
                                 <img src="/assets/images/logo.png" className="ps-2" alt="" />
                             </h1>
-                            {/* <Logo /> */}
                         </div>
                         <img src="/assets/images/home_about.png" alt="" className="img-fluid"/>
                     </div>
@@ -85,15 +84,45 @@ const Home = () => {
             </div>
 
             <div className="services_home my-5 py-lg-5">
-                <div className="header d-flex mb-2 mt-5">
-                    <SmCircle/>
-                    <h4 className="fw-bold ps-3">SERVICES</h4>
+                <div className="row d-flex justify-content-between align-items-center mb-5">
+                    <div className="col-6 header d-flex ">
+                        <SmCircle/>
+                        <h4 className="fw-bold ps-3">SERVICES</h4>
+                    </div>
+                    <div className="col-6 d-flex justify-content-center align-items-center">
+                        <p className=" mb-1 pe-2">Explore Services</p>
+                        <a href="#" className="text-dark"> 
+                            <i  className="bi bi-arrow-right-circle fs-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col text-center">
+                        <i className="bi bi-camera fs-1" ></i>
+                        <p>WEDDINGS</p>
+                    </div>
+                    <div className="col text-center">
+                        <i className="bi bi-camera fs-1" ></i>
+                        <p>LIFESTYLE</p>
+                    </div>
+                    <div className="col text-center">
+                        <i className="bi bi-camera fs-1" ></i>
+                        <p>PORTRAIT</p>
+                    </div>
+                    <div className="col text-center">
+                        <i className="bi bi-camera fs-1" ></i>
+                        <p>FASHION</p>
+                    </div>
+                    <div className="col text-center">
+                        <i className="bi bi-camera fs-1" ></i>
+                        <p>GRADUATION</p>
+                    </div>
                 </div>
                 <img src="/assets/images/home_services.png" alt="" className="img-fluid mb-5"/>
             </div>
 
             <div className="team my-5">
-                <div className="header d-flex mb-2 mt-5">
+                <div className="col-lg-6 header d-flex mb-2 mt-5">
                     <SmCircle/>
                     <h4 className="fw-bold ps-3">TEAM</h4>
                 </div>

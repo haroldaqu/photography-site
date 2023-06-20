@@ -32,7 +32,7 @@ const Services = () => {
                     </div>
                 </div>
 
-            <div className=" row mb-5 mb-lg-0">
+            <div className=" row m-5 mb-lg-0">
                 <div className="move_up col-lg-6 mb-5 mb-lg-0">
                     <div className="">
                         <img src="/assets/images/services/lifestyle.png" alt="" className="img-fluid"/>
@@ -78,6 +78,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="mt-0 mt-lg-5 col-lg-6">
                     <div className="text-end">
                         <img src="/assets/images/services/graduation.png" alt="" className="img-fluid "/>
