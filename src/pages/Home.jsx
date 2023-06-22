@@ -27,16 +27,16 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <div className="mb-4 col-lg-6">
-                        <div className="d-flex align-items-center my-3">
+                        {/* <div className="d-flex align-items-center my-3">
                             <h1 className="fw-bold my-2 pe-3">
                                 PHOTOBY 
                                 <img src="/assets/images/logo.png" className="ps-2" alt="" />
                             </h1>
-                        </div>
+                        </div> */}
                         <img src="/assets/images/home_about.png" alt="" className="img-fluid"/>
                     </div>
                     <div className="col-lg-6">
-                        <p className="ms-0 ms-lg-5">Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet adipiscing urna. Amet aenean ac faucibus varius curabitur consequat pellentesque morbi. Tincidunt eleifend morbi mauris nascetur porta vulputate. At egestas mi senectus nam aliquam vivamus. Egestas non sit pulvinar faucibus tincidunt at quis morbi tortor. Ultrices egestas rhoncus in justo massa consectetur est ut magna. Eget vitae duis a aliquam condimentum id non scelerisque. </p>
+                        <p className="ms-0 ms-lg-5">As a professionally trained photographer and creative visual artist, my job of telling the most beautiful love stories brings me so much fulfillment and joy. I’m hard-working, yet light-hearted. I love music, movies and most of all, my adorable family. I’m powered by Intelligentsia coffee, green juices filled with crazy superfood concoctions and the thrill of my last mountain bike ride. I love luminous light, beautiful architecture and couples who are deeply in love and who care about creating a magical experience for their wedding day. </p>
                         <button className="ms-0 ms-lg-5 btn bg-dark text-white rounded-5 px-4 py-2">Learn More</button>
                     </div>
                     <p></p>
