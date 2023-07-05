@@ -17,7 +17,16 @@ p{
 }
 
 
+/* Navbar */
 
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
 
 
 
@@ -195,15 +204,19 @@ p{
     background-color: #000;
 }
 
-.footer input {
-    width: 50% !important;
+.footer input:focus {
+    outline: none;
 }
 
-@media (max-width: 992px) {
+.footer a {
+    text-decoration: none;
+}
+
+/* @media (max-width: 992px) {
     .footer input {
         width: 100% !important;
     }
-}
+} */
 
 
 

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import Circle from "../components/Circle"
 import Line from "../components/Line"
 import Logo from "../components/Logo"
@@ -36,7 +37,7 @@ const Home = () => {
                         <img src="/assets/images/home_about.png" alt="" className="img-fluid"/>
                     </div>
                     <div className="col-lg-6">
-                        <p className="ms-0 ms-lg-5">As a professionally trained photographer and creative visual artist, my job of telling the most beautiful love stories brings me so much fulfillment and joy. I’m hard-working, yet light-hearted. I love music, movies and most of all, my adorable family. I’m powered by Intelligentsia coffee, green juices filled with crazy superfood concoctions and the thrill of my last mountain bike ride. I love luminous light, beautiful architecture and couples who are deeply in love and who care about creating a magical experience for their wedding day. </p>
+                        <p className="ms-0 ms-lg-5">At our photography company, we are passionate about capturing moments that tell stories and create lasting memories. With a keen eye for detail and a commitment to excellence, our team of skilled photographers is dedicated to providing exceptional services tailored to our clients' needs. Whether it's weddings, family portraits, corporate events, or commercial projects, we pride ourselves on delivering stunning, high-quality images that truly reflect the unique essence of each occasion. Through our artistry and expertise, we aim to exceed expectations and preserve precious moments for generations to come.</p>
                         <button className="ms-0 ms-lg-5 btn bg-dark text-white rounded-5 px-4 py-2">Learn More</button>
                     </div>
                     <p></p>
@@ -84,19 +85,19 @@ const Home = () => {
             </div>
 
             <div className="services_home my-5 py-lg-5">
-                <div className="row d-flex justify-content-between align-items-center mb-5">
-                    <div className="col-6 header d-flex ">
+                <div className="row d-flex justify-content-between align-items-center mb-5 ">
+                    <div className="col-6 header d-flex">
                         <SmCircle/>
                         <h4 className="fw-bold ps-3">SERVICES</h4>
                     </div>
-                    <div className="col-6 d-flex justify-content-center align-items-center">
+                    <div className="col-6 d-flex justify-content-end align-items-center">
                         <p className=" mb-1 pe-2">Explore Services</p>
-                        <a href="#" className="text-dark"> 
+                        <NavLink to="/services" className="text-dark"> 
                             <i  className="bi bi-arrow-right-circle fs-2"></i>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row justify-content-between">
                     <div className="col text-center">
                         <i className="bi bi-camera fs-1" ></i>
                         <p>WEDDINGS</p>

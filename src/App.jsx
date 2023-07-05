@@ -12,9 +12,11 @@ import Footer from './components/Footer'
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 // Router
-import { BrowserRouter as Router, Navigate, Outlet, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
   return (
     <>
     <Router>
+      <ScrollToTop />
       <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />

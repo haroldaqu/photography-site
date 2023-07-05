@@ -11,9 +11,9 @@ const Services = () => {
                             <Circle />
                             <h1 className="fw-bold ps-3">OUR <br></br> SERVICES</h1>
                         </div>
-                        <div className="header d-flex "> 
+                        <div className="header d-flex flex-column"> 
                             <Line />
-                            <p className="ps-4 services_info">Lorem ipsum dolor sit amet consectetur. Eget vitae leo dolor sed massa. Lorem pulvinar ut amet dictumst id netus neque consectetur semper. Nec et habitant mi amet penatibus purus commodo. </p>
+                            <p className=" services_info">Our photography services encompass a wide range of offerings, including weddings, portraits, events, commercial projects, and more. With a blend of technical proficiency and artistic vision, we strive to deliver exceptional images that capture the essence and emotion of every moment. </p>
                         </div>
                     </div>
                     <div className="mt-5 mt-lg-0 col-lg-6">
@@ -32,7 +32,7 @@ const Services = () => {
                     </div>
                 </div>
 
-            <div className=" row m-5 mb-lg-0">
+            <div className=" row m-lg-5">
                 <div className="move_up col-lg-6 mb-5 mb-lg-0">
                     <div className="">
                         <img src="/assets/images/services/lifestyle.png" alt="" className="img-fluid"/>
