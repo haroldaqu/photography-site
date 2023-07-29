@@ -1,7 +1,9 @@
+import { useEffect } from "react"
 import Circle from "../components/Circle"
 import SmCircle from "../components/SmCircle"
 
 const Projects = () => {
+
     return(
         <div className="projects container">
 
@@ -49,7 +51,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="left_projects col-lg-2 d-flex align-items-center order-first">
+                <div className="left_projects col-lg-2 d-flex align-items-center">
                     <h1>LIFESTYLE PHOTOSESSION</h1>
                 </div>
             </div>
@@ -93,7 +95,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="left_projects col-lg-2 d-flex align-items-center order-first">
+                <div className="left_projects col-lg-2 d-flex align-items-center">
                     <h1>FASHION PHOTOSESSION</h1>
                 </div>
             </div>

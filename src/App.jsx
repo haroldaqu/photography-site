@@ -16,11 +16,11 @@ import ScrollToTop from './components/ScrollToTop';
 
 // Router
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useEffect } from 'react';
 
 
 
 function App() {
-
   return (
     <>
     <Router>
@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />  
-          <Route path="/projects" element={<Projects />} />  
+          <Route path="/projects" element={<Projects/>} />  
           <Route path="/contact" element={<Contact />} />  
         </Routes>
       <Footer /> 
